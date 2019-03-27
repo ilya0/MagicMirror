@@ -30,6 +30,33 @@ var config = {
 			module: "alert",
 		},
 		{
+            module: 'MMM-CoinMarketCap',
+            position: "top_right",
+            header: "Cryptocurrencies",
+            config: {
+                currencies: ['bitcoin', 'ethereum', 'litecoin', 'ripple',"doge","cardano","iota"],
+                view: 'graphWithChanges',
+                conversion: 'CAD',
+            
+            }
+		},
+		//https://www.latlong.net/c/?lat=34.018940&long=-118.412280
+		{
+			module: 'MMM-NOAA3',
+			position: 'top_left',
+			   config: {
+				   provider: "darksky", // From list above
+				   apiKey: "YOUR API KEY",        // From one of the providers listed above
+				   airKey: "YOUR API KEY",    
+				   css: "NOAA4",                   // THIS MUST CONTAIN A CSS STYLE NAME 
+			   userlat: "34.018940", //MUST HAVE BOTH
+				   userlon: "-118.412280"  //MUST HAVE BOTH
+			}
+				},
+		},
+
+
+		{
 			module: "updatenotification",
 			position: "top_bar"
 		},
