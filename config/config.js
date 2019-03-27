@@ -26,9 +26,11 @@ var config = {
 	units: "metric",
 
 	modules: [
+
 		{
 			module: "alert",
 		},
+
 		{
             module: 'MMM-CoinMarketCap',
             position: "top_right",
@@ -40,6 +42,8 @@ var config = {
             
             }
 		},
+
+		
 		//https://www.latlong.net/c/?lat=34.018940&long=-118.412280
 		{
 			module: 'MMM-NOAA3',
@@ -51,11 +55,12 @@ var config = {
 				   css: "NOAA4",                   // THIS MUST CONTAIN A CSS STYLE NAME 
 			   userlat: "34.018940", //MUST HAVE BOTH
 				   userlon: "-118.412280"  //MUST HAVE BOTH
-			}
-				},
+			},
+
+			
+		{
+			module: "alert",
 		},
-
-
 		{
 			module: "updatenotification",
 			position: "top_bar"
@@ -95,8 +100,8 @@ var config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				location: "Los Angeles",
-				locationID: "5368361",  //ID from https://openweathermap.org/city
+				location: "New York",
+				locationID: "5128581",  //ID from https://openweathermap.org/city
 				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
@@ -114,6 +119,8 @@ var config = {
 				showPublishDate: true
 			}
 		},
+				
+		
 	]
 
 };
