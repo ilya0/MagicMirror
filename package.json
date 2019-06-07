@@ -38,7 +38,7 @@
     "chai-as-promised": "^7.1.1",
     "current-week-number": "^1.0.7",
     "danger": "^3.1.3",
-    "grunt": "latest",
+    "grunt": "^1.0.4",
     "grunt-eslint": "latest",
     "grunt-jsonlint": "latest",
     "grunt-markdownlint": "^1.0.43",
@@ -46,7 +46,7 @@
     "grunt-yamllint": "latest",
     "http-auth": "^3.2.3",
     "jsdom": "^11.6.2",
-    "jshint": "^2.9.5",
+    "jshint": "^2.10.2",
     "mocha": "^4.1.0",
     "mocha-each": "^1.1.0",
     "spectron": "^3.8.0",
@@ -55,6 +55,7 @@
     "time-grunt": "latest"
   },
   "dependencies": {
+    "acorn": "^6.1.1",
     "ajv": "6.5.5",
     "body-parser": "^1.18.2",
     "colors": "^1.1.2",
@@ -67,6 +68,7 @@
     "iconv-lite": "latest",
     "mocha-logger": "^1.0.6",
     "moment": "latest",
+    "python-shell": "^1.0.7",
     "request": "^2.87.0",
     "rrule-alt": "^2.2.8",
     "simple-git": "^1.85.0",
