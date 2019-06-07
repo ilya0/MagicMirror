@@ -1,0 +1,15 @@
+[Tokens]
+acc_tok = <your access token>
+ref_tok = <your refresh token>
+
+
+OAuth 2.0 Client ID
+22DQT8
+Client Secret
+719a461f773f3e9c922bbe3d777bc921
+Callback URL
+http://127.0.0.1:8080/
+OAuth 2.0: Authorization URI
+https://www.fitbit.com/oauth2/authorize
+OAuth 2.0: Access/Refresh Token Request URI
+https://api.fitbit.com/oauth2/token
