@@ -1,0 +1,9 @@
+[submodule "modules/MMM-fitbit"]
+	path = modules/MMM-fitbit
+	url = https://github.com/SVendittelli/MMM-fitbit
+[submodule "modules/MMM-CoinMarketCap"]
+	path = modules/MMM-CoinMarketCap
+	url = https://github.com/glitch452/MMM-CoinMarketCap
+[submodule "modules/MMM-NOAA3"]
+	path = modules/MMM-NOAA3
+	url = https://github.com/cowboysdude/MMM-NOAA3
