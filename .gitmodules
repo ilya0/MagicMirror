@@ -7,3 +7,7 @@
 [submodule "modules/MMM-NOAA3"]
 	path = modules/MMM-NOAA3
 	url = https://github.com/cowboysdude/MMM-NOAA3
+[submodule "MagicMirror"]
+	path = MagicMirror
+	url = https://github.com/ilya0/MagicMirror
+	branch = master
